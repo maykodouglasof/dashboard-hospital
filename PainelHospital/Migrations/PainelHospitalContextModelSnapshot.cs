@@ -14,7 +14,25 @@ namespace PainelHospital.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.11-servicing-32099");
+                .HasAnnotation("ProductVersion", "2.1.14-servicing-32113");
+
+            modelBuilder.Entity("PainelHospital.Models.Atendimento", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<bool>("atendeDia");
+
+                    b.Property<bool>("atendePlano");
+
+                    b.Property<DateTime>("horaFim");
+
+                    b.Property<DateTime>("horaInicio");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Atendimento");
+                });
 
             modelBuilder.Entity("PainelHospital.Models.Consulta", b =>
                 {
@@ -66,6 +84,22 @@ namespace PainelHospital.Migrations
                     b.ToTable("Estado");
                 });
 
+            modelBuilder.Entity("PainelHospital.Models.Exame", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Descricao");
+
+                    b.Property<string>("Nome");
+
+                    b.Property<float>("Valor");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Exame");
+                });
+
             modelBuilder.Entity("PainelHospital.Models.Medico", b =>
                 {
                     b.Property<int>("Id")
@@ -107,6 +141,20 @@ namespace PainelHospital.Migrations
                         .IsUnique();
 
                     b.ToTable("Paciente");
+                });
+
+            modelBuilder.Entity("PainelHospital.Models.Plano", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Nome");
+
+                    b.Property<string>("Sigla");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Plano");
                 });
 
             modelBuilder.Entity("PainelHospital.Models.Endereco", b =>
