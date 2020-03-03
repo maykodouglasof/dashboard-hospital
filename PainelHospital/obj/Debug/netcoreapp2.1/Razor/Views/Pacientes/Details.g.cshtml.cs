@@ -144,7 +144,7 @@ using PainelHospital.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(889, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aba3a4e99f244998bb7ba3248b00003a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bd4370c7e3ed4ebb9aba334192f57c9d", async() => {
                 BeginContext(935, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -179,7 +179,7 @@ using PainelHospital.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(951, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b823d3f737484f1ab4426173074dbd12", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e15b3ebc20947149006d88f74e9759b", async() => {
                 BeginContext(973, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

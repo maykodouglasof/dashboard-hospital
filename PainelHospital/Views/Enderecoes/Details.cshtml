@@ -1,0 +1,42 @@
+﻿@model PainelHospital.Models.Endereco
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Endereco</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cidade)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cidade)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Logradouro)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Logradouro)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cep)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cep)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Estado.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -5,7 +5,7 @@ using System.Web;
 
 namespace PainelHospital.Models
 {
-    public class Atendimento
+    public class Atendimento : Entity
     {
         public DateTime horaInicio { get; set; } 
         public DateTime horaFim { get; set; }

@@ -1,0 +1,42 @@
+﻿@model PainelHospital.Models.Medico
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Medico</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Crm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Crm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tel)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Atendimentos)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Atendimentos)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
