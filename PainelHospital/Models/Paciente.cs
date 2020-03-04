@@ -8,7 +8,7 @@ namespace PainelHospital.Models
     public class Paciente : Entity
     {
         public String Nome { get; set; } 
-        public int Sexo { get; set; }
+        public Sexo Sexo { get; set; }
         public DateTime Nascimento { get; set; }
         public int EnderecoId { get; set; }
         public virtual Endereco Endereco { get; set; }
