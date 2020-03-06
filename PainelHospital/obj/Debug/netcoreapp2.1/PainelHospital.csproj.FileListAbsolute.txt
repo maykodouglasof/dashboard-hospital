@@ -2,7 +2,6 @@ C:\Users\mddssilv\source\repos\PainelHospital\PainelHospital\bin\Debug\netcoreap
 C:\Users\mddssilv\source\repos\PainelHospital\PainelHospital\bin\Debug\netcoreapp2.1\PainelHospital.runtimeconfig.json
 C:\Users\mddssilv\source\repos\PainelHospital\PainelHospital\bin\Debug\netcoreapp2.1\PainelHospital.runtimeconfig.dev.json
 C:\Users\mddssilv\source\repos\PainelHospital\PainelHospital\bin\Debug\netcoreapp2.1\PainelHospital.dll
-C:\Users\mddssilv\source\repos\PainelHospital\PainelHospital\obj\Debug\netcoreapp2.1\PainelHospital.csprojAssemblyReference.cache
 C:\Users\mddssilv\source\repos\PainelHospital\PainelHospital\obj\Debug\netcoreapp2.1\PainelHospital.csproj.CoreCompileInputs.cache
 C:\Users\mddssilv\source\repos\PainelHospital\PainelHospital\obj\Debug\netcoreapp2.1\PainelHospital.RazorAssemblyInfo.cache
 C:\Users\mddssilv\source\repos\PainelHospital\PainelHospital\obj\Debug\netcoreapp2.1\PainelHospital.RazorAssemblyInfo.cs

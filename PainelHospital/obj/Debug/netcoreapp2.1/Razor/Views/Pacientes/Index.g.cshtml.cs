@@ -66,7 +66,7 @@ using PainelHospital.Models;
             WriteLiteral("\r\n<h2>Gerenciar Pacientes</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(152, 50, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c57025d086243c1bcef28e6bc224fd3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "051fcda978ea4d2da811254f17c196fb", async() => {
                 BeginContext(175, 23, true);
                 WriteLiteral("Cadastrar novo Paciente");
                 EndContext();
@@ -176,7 +176,7 @@ using PainelHospital.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1192, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3caab14c059343c5b912f4ecc69ff46a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6aed9c20e93a4e2a89719627518925c1", async() => {
                 BeginContext(1237, 6, true);
                 WriteLiteral("Editar");
                 EndContext();
@@ -211,7 +211,7 @@ using PainelHospital.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1267, 60, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b808ebf2bd294599a96cc711f66b5ea6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "97d1047e43fd41e6af8eca2d50449584", async() => {
                 BeginContext(1315, 8, true);
                 WriteLiteral("Detalhes");
                 EndContext();
@@ -246,7 +246,7 @@ using PainelHospital.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1347, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d3f8e487a6f426f99c6f48580e43682", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3b14791555fd40d5813ed101b3385473", async() => {
                 BeginContext(1394, 7, true);
                 WriteLiteral("Deletar");
                 EndContext();
